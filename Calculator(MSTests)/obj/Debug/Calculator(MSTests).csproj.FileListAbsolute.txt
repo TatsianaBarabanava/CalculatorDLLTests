@@ -1,0 +1,15 @@
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).pdb
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator1.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\obj\Debug\Calculator(MSTests).csproj.CoreCompileInputs.cache
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\obj\Debug\Calculator(MSTests).csproj.CopyComplete
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\obj\Debug\Calculator(MSTests).dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\obj\Debug\Calculator(MSTests).pdb
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\obj\Debug\Calculator(MSTests).csproj.AssemblyReference.cache

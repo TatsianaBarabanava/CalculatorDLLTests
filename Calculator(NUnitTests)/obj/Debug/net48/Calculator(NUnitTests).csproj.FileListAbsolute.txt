@@ -1,0 +1,16 @@
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\NUnit3.TestAdapter.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\NUnit3.TestAdapter.pdb
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\nunit.engine.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\nunit.engine.api.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\nunit.engine.core.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\Calculator(NUnitTests).dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\Calculator(NUnitTests).pdb
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\nunit.framework.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\bin\Debug\net48\Calculator1.dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\obj\Debug\net48\Calculator(NUnitTests).AssemblyInfoInputs.cache
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\obj\Debug\net48\Calculator(NUnitTests).AssemblyInfo.cs
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\obj\Debug\net48\Calculator(NUnitTests).csproj.CoreCompileInputs.cache
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\obj\Debug\net48\Calculator(NUnitTests).csproj.CopyComplete
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\obj\Debug\net48\Calculator(NUnitTests).dll
+C:\Users\Tatsiana_Barabanava\source\repos\Calculator(NUnitTests)\obj\Debug\net48\Calculator(NUnitTests).pdb

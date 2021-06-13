@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7399e40f-091e-4f56-98e7-c25695a88788" name="Tatsiana_Barabanava@EPBYMINW0A48 2021-06-08 17:16:48" runUser="MINSK\Tatsiana_Barabanava" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-06-08T17:16:48.2558157+03:00" queuing="2021-06-08T17:16:48.2558157+03:00" start="2021-06-08T17:16:47.1175756+03:00" finish="2021-06-08T17:16:48.3101844+03:00" />
+  <TestSettings name="default" id="88c0a8cc-ee4f-40e4-b44d-34906ca4a2bc">
+    <Deployment runDeploymentRoot="Tatsiana_Barabanava_EPBYMINW0A48_2021-06-08_17_16_48" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c2155026-129d-4d48-8d75-f078b800f1fa" testId="0874398b-120c-e299-bc57-ca1ee573d82c" testName="AddMSTestString" computerName="EPBYMINW0A48" duration="00:00:00.0007701" startTime="2021-06-08T17:16:48.1858463+03:00" endTime="2021-06-08T17:16:48.1868436+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2155026-129d-4d48-8d75-f078b800f1fa">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Calculator_MSTests_.MSTest_Add.AddMSTestString threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at Calculator_MSTests_.MSTest_Add.AddMSTestString() in C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\MSTest_Add.cs:line 43&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b68dae9e-8cb4-492e-88b3-713ab5681a67" testId="f1fd2063-2548-4ab9-356b-6835659386b4" testName="AbsMethodException" computerName="EPBYMINW0A48" duration="00:00:00.0010490" startTime="2021-06-08T17:16:48.1818521+03:00" endTime="2021-06-08T17:16:48.1828558+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b68dae9e-8cb4-492e-88b3-713ab5681a67" />
+    <UnitTestResult executionId="b96cf4f0-cd26-45bc-9a09-44a8332e5d3c" testId="2c8b83fc-085f-40d6-bc85-186d1ef04350" testName="AddMSTestException" computerName="EPBYMINW0A48" duration="00:00:00.0014044" startTime="2021-06-08T17:16:48.1838515+03:00" endTime="2021-06-08T17:16:48.1848491+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b96cf4f0-cd26-45bc-9a09-44a8332e5d3c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method threw exception System.InvalidCastException, but exception System.NotFiniteNumberException was expected. Exception message: System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>   at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at Calculator_MSTests_.MSTest_Add.AddMSTestException() in C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\MSTest_Add.cs:line 53&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6e3b7f6-8346-49c1-b7d7-fc0bc7a1afd6" testId="9fbb8e49-ff93-b94b-778a-ae38b8c7d8d9" testName="AddMSTestInt" computerName="EPBYMINW0A48" duration="00:00:00.0007785" startTime="2021-06-08T17:16:48.1848491+03:00" endTime="2021-06-08T17:16:48.1858463+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6e3b7f6-8346-49c1-b7d7-fc0bc7a1afd6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Calculator_MSTests_.MSTest_Add.AddMSTestInt threw exception: &#xD;
+System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Add(Object a, Object b)&#xD;
+   at Calculator_MSTests_.MSTest_Add.AddMSTestInt() in C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\MSTest_Add.cs:line 23&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d8d839a-e884-4517-9a9f-47b284a92e34" testId="f0214a0c-5953-c2f7-690b-e3e3896faada" testName="IsNegativeMSTestString" computerName="EPBYMINW0A48" duration="00:00:00.0000706" startTime="2021-06-08T17:16:48.2257417+03:00" endTime="2021-06-08T17:16:48.2267383+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d8d839a-e884-4517-9a9f-47b284a92e34" />
+    <UnitTestResult executionId="8d81e75c-de35-4441-962f-547fe0ac705e" testId="8ebd786e-55bf-331a-9432-9e33312adba7" testName="IsNegativeMSTestDouble" computerName="EPBYMINW0A48" duration="00:00:00.0008350" startTime="2021-06-08T17:16:48.2227487+03:00" endTime="2021-06-08T17:16:48.2237461+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d81e75c-de35-4441-962f-547fe0ac705e" />
+    <UnitTestResult executionId="5bf38bfe-55dc-44d2-acab-212fd7fe358c" testId="a9276d6b-c88b-3f3f-74b6-c17fa9c43823" testName="AbsMSTestInt" computerName="EPBYMINW0A48" duration="00:00:00.0001012" startTime="2021-06-08T17:16:48.1738731+03:00" endTime="2021-06-08T17:16:48.1748703+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bf38bfe-55dc-44d2-acab-212fd7fe358c" />
+    <UnitTestResult executionId="a175dd31-8385-4557-97bf-ddde160a14b0" testId="ebcc6792-1179-20c5-83ca-fb372fb26a4e" testName="CosMSTestNegativeValue" computerName="EPBYMINW0A48" duration="00:00:00.0000804" startTime="2021-06-08T17:16:48.2187595+03:00" endTime="2021-06-08T17:16:48.2197567+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a175dd31-8385-4557-97bf-ddde160a14b0" />
+    <UnitTestResult executionId="696fe7a9-5b9a-45fb-a443-6c018baba858" testId="4002b077-c11f-b093-da88-b58b69f0eeb7" testName="AbsMSTestStringInt" computerName="EPBYMINW0A48" duration="00:00:00.0000913" startTime="2021-06-08T17:16:48.1808542+03:00" endTime="2021-06-08T17:16:48.1818521+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="696fe7a9-5b9a-45fb-a443-6c018baba858" />
+    <UnitTestResult executionId="18d04ec2-0473-4b55-82b0-9fe81c805509" testId="b32cb058-9706-9044-9da3-10c50f2d390d" testName="CosMSTestException" computerName="EPBYMINW0A48" duration="00:00:00.0008389" startTime="2021-06-08T17:16:48.2177619+03:00" endTime="2021-06-08T17:16:48.2187595+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18d04ec2-0473-4b55-82b0-9fe81c805509" />
+    <UnitTestResult executionId="9140717d-7749-490f-98e8-0ee8c0a3c196" testId="4a27a543-314a-4fc5-27f3-17eb0eda44ef" testName="IsPositiveMSTestException" computerName="EPBYMINW0A48" duration="00:00:00.0009314" startTime="2021-06-08T17:16:48.2287350+03:00" endTime="2021-06-08T17:16:48.2297318+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9140717d-7749-490f-98e8-0ee8c0a3c196" />
+    <UnitTestResult executionId="45f80b8e-b621-485f-bc9d-77545b582144" testId="2ebf40af-a7e8-3862-7b2d-3d4b39820c40" testName="IsNegativeMSTestZero" computerName="EPBYMINW0A48" duration="00:00:00.0010338" startTime="2021-06-08T17:16:48.2267383+03:00" endTime="2021-06-08T17:16:48.2277362+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45f80b8e-b621-485f-bc9d-77545b582144">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;False&gt;. Actual:&lt;True&gt;. </Message>
+          <StackTrace>   at Calculator_MSTests_.MSTest_isNegative.IsNegativeMSTestZero() in C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\MSTest_isNegative.cs:line 41&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47cb5612-bb15-4a40-b99a-408850117064" testId="2b7487f1-2938-807a-e00c-61c620a53df1" testName="AddMSTestDouble" computerName="EPBYMINW0A48" duration="00:00:00.0002552" startTime="2021-06-08T17:16:48.1828558+03:00" endTime="2021-06-08T17:16:48.1838515+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47cb5612-bb15-4a40-b99a-408850117064" />
+    <UnitTestResult executionId="f5cf2531-5633-4cec-bdfa-ea4272be4b7e" testId="44ec90ff-6fc3-96d6-1eb7-f01555bccf22" testName="IsPositiveMSTestIntNegativeValue" computerName="EPBYMINW0A48" duration="00:00:00.0000826" startTime="2021-06-08T17:16:48.2318379+03:00" endTime="2021-06-08T17:16:48.2318379+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5cf2531-5633-4cec-bdfa-ea4272be4b7e" />
+    <UnitTestResult executionId="e3b17558-ea48-4787-a25b-56b79d532ebf" testId="c8ddd6b6-1195-886d-044d-7027d6307329" testName="AbsMSTestString" computerName="EPBYMINW0A48" duration="00:00:00.0059550" startTime="2021-06-08T17:16:48.1748703+03:00" endTime="2021-06-08T17:16:48.1808542+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3b17558-ea48-4787-a25b-56b79d532ebf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Calculator_MSTests_.MSTest_Abs.AbsMSTestString threw exception: &#xD;
+System.NotFiniteNumberException: Wrong input</Message>
+          <StackTrace>    at CSharpCalculator.Calculator.Abs(Object a)&#xD;
+   at Calculator_MSTests_.MSTest_Abs.AbsMSTestString() in C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\MSTest_Abs.cs:line 50&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fab2c3fe-2875-4b8a-bdfe-277edf2e87c3" testId="197e995a-571b-124b-26d1-f7a5a08c072e" testName="DivideMSTestDouble" computerName="EPBYMINW0A48" duration="00:00:00.0002040" startTime="2021-06-08T17:16:48.2197567+03:00" endTime="2021-06-08T17:16:48.2207541+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fab2c3fe-2875-4b8a-bdfe-277edf2e87c3" />
+    <UnitTestResult executionId="8f4ff6c1-e550-4fbf-83ae-904c5c55af16" testId="e7156d21-491a-0165-45fd-1e216a685d9c" testName="CosMSTestString" computerName="EPBYMINW0A48" duration="00:00:00.0000708" startTime="2021-06-08T17:16:48.2197567+03:00" endTime="2021-06-08T17:16:48.2197567+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f4ff6c1-e550-4fbf-83ae-904c5c55af16" />
+    <UnitTestResult executionId="a5decf3b-7e64-4b8a-a6f1-76d30a27557f" testId="fdef3f41-155d-3c13-76f1-f973f4f96051" testName="IsNegativeMSTestException" computerName="EPBYMINW0A48" duration="00:00:00.0008075" startTime="2021-06-08T17:16:48.2237461+03:00" endTime="2021-06-08T17:16:48.2247439+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a5decf3b-7e64-4b8a-a6f1-76d30a27557f" />
+    <UnitTestResult executionId="c7244dfa-2a2c-4653-b21f-028d56c20b7e" testId="d97379ba-922b-fd0a-73cd-3a2cea2e37de" testName="IsNegativeMSTestIntPositiveValue" computerName="EPBYMINW0A48" duration="00:00:00.0000792" startTime="2021-06-08T17:16:48.2257417+03:00" endTime="2021-06-08T17:16:48.2257417+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7244dfa-2a2c-4653-b21f-028d56c20b7e" />
+    <UnitTestResult executionId="273768f3-88cb-42e8-ab43-402f7e5b40bb" testId="a41ec131-1cd9-d98c-ad30-d56b3d84e41a" testName="AbsMSTestDouble" computerName="EPBYMINW0A48" duration="00:00:00.2156778" startTime="2021-06-08T17:16:47.9029896+03:00" endTime="2021-06-08T17:16:48.1678920+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="273768f3-88cb-42e8-ab43-402f7e5b40bb">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;5.2&gt;. Actual:&lt;5&gt;. </Message>
+          <StackTrace>   at Calculator_MSTests_.MSTest_Abs.AbsMSTestDouble() in C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\MSTest_Abs.cs:line 41&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0206d305-0782-4a9c-812d-7068a436725e" testId="5b352872-5d3e-e157-9d66-1e4cdbd23aa8" testName="IsPositiveMSTestDouble" computerName="EPBYMINW0A48" duration="00:00:00.0002794" startTime="2021-06-08T17:16:48.2277362+03:00" endTime="2021-06-08T17:16:48.2287350+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0206d305-0782-4a9c-812d-7068a436725e" />
+    <UnitTestResult executionId="1a0bc426-e22d-4665-9c15-53cea34b49a2" testId="9c5f9358-13da-0cd4-5a88-9b54ca5de027" testName="DivideMSTestException" computerName="EPBYMINW0A48" duration="00:00:00.0001977" startTime="2021-06-08T17:16:48.2207541+03:00" endTime="2021-06-08T17:16:48.2207541+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a0bc426-e22d-4665-9c15-53cea34b49a2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method did not throw expected exception System.DivideByZeroException. </Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="efeb92cb-2892-4f41-8202-dcd671aab3a4" testId="d24df5d1-e9c8-a61e-5c13-ef53db1687d9" testName="CosMSTestDouble" computerName="EPBYMINW0A48" duration="00:00:00.0008715" startTime="2021-06-08T17:16:48.2157674+03:00" endTime="2021-06-08T17:16:48.2177619+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efeb92cb-2892-4f41-8202-dcd671aab3a4" />
+    <UnitTestResult executionId="d21759b7-bac1-4403-9470-ff50c00d276f" testId="c368b503-30be-544c-9e14-354afd40bc7b" testName="IsPositiveMSTestString" computerName="EPBYMINW0A48" duration="00:00:00.0000847" startTime="2021-06-08T17:16:48.2318379+03:00" endTime="2021-06-08T17:16:48.2327698+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d21759b7-bac1-4403-9470-ff50c00d276f" />
+    <UnitTestResult executionId="1e1c8c5c-4f6a-473c-bc95-34b403ff0940" testId="ffb93508-296f-dd2b-fbac-085ac0379350" testName="DivideMSTestString" computerName="EPBYMINW0A48" duration="00:00:00.0000878" startTime="2021-06-08T17:16:48.2227487+03:00" endTime="2021-06-08T17:16:48.2227487+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e1c8c5c-4f6a-473c-bc95-34b403ff0940" />
+    <UnitTestResult executionId="5c3a39bd-a588-4488-8ebe-0ae4c9be005b" testId="27bf2efa-dd19-33aa-a3dd-8f357d90ec80" testName="CosMSTestZeroValue" computerName="EPBYMINW0A48" duration="00:00:00.0000816" startTime="2021-06-08T17:16:48.2197567+03:00" endTime="2021-06-08T17:16:48.2197567+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c3a39bd-a588-4488-8ebe-0ae4c9be005b" />
+    <UnitTestResult executionId="ce3c75de-abc8-4811-b0d4-47e6cb96e857" testId="2c8d5602-9b96-58f3-987d-6b6fed8d46fa" testName="IsPositiveMSTestZero" computerName="EPBYMINW0A48" duration="00:00:00.0000804" startTime="2021-06-08T17:16:48.2327698+03:00" endTime="2021-06-08T17:16:48.2327698+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce3c75de-abc8-4811-b0d4-47e6cb96e857" />
+    <UnitTestResult executionId="8d9159b9-c2a4-4e35-8696-3ad3f8c92f3e" testId="18d86f2b-f679-9d0b-6a29-7eb6d926a7a1" testName="DivideMSTestInt" computerName="EPBYMINW0A48" duration="00:00:00.0000744" startTime="2021-06-08T17:16:48.2207541+03:00" endTime="2021-06-08T17:16:48.2217518+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8d9159b9-c2a4-4e35-8696-3ad3f8c92f3e" />
+    <UnitTestResult executionId="953baac4-f0a7-4e0b-a6f6-09b9bcc9940b" testId="5ed440ec-084a-b001-9512-2c51f1960a8e" testName="IsPositiveMSTestInt" computerName="EPBYMINW0A48" duration="00:00:00.0001301" startTime="2021-06-08T17:16:48.2307275+03:00" endTime="2021-06-08T17:16:48.2318379+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="953baac4-f0a7-4e0b-a6f6-09b9bcc9940b" />
+    <UnitTestResult executionId="44f40a11-8d73-40da-8dab-cf767ef02f77" testId="ef1354eb-b104-af9c-10bf-e70fbd0ced1c" testName="IsNegativeMSTestInt" computerName="EPBYMINW0A48" duration="00:00:00.0000902" startTime="2021-06-08T17:16:48.2247439+03:00" endTime="2021-06-08T17:16:48.2257417+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44f40a11-8d73-40da-8dab-cf767ef02f77" />
+    <UnitTestResult executionId="f57e05e0-0f03-4c37-84dd-71224f904d07" testId="0a57f8c6-ba35-4bbc-d840-ed649f4c1ef1" testName="CosMSTestInt" computerName="EPBYMINW0A48" duration="00:00:00.0000893" startTime="2021-06-08T17:16:48.2187595+03:00" endTime="2021-06-08T17:16:48.2187595+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f57e05e0-0f03-4c37-84dd-71224f904d07" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DivideMSTestDouble" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="197e995a-571b-124b-26d1-f7a5a08c072e">
+      <Execution id="fab2c3fe-2875-4b8a-bdfe-277edf2e87c3" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Divide" name="DivideMSTestDouble" />
+    </UnitTest>
+    <UnitTest name="IsPositiveMSTestString" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="c368b503-30be-544c-9e14-354afd40bc7b">
+      <Execution id="d21759b7-bac1-4403-9470-ff50c00d276f" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isPositive" name="IsPositiveMSTestString" />
+    </UnitTest>
+    <UnitTest name="CosMSTestInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="0a57f8c6-ba35-4bbc-d840-ed649f4c1ef1">
+      <Execution id="f57e05e0-0f03-4c37-84dd-71224f904d07" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Cos" name="CosMSTestInt" />
+    </UnitTest>
+    <UnitTest name="AddMSTestException" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="2c8b83fc-085f-40d6-bc85-186d1ef04350">
+      <Execution id="b96cf4f0-cd26-45bc-9a09-44a8332e5d3c" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Add" name="AddMSTestException" />
+    </UnitTest>
+    <UnitTest name="AbsMSTestString" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="c8ddd6b6-1195-886d-044d-7027d6307329">
+      <Execution id="e3b17558-ea48-4787-a25b-56b79d532ebf" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Abs" name="AbsMSTestString" />
+    </UnitTest>
+    <UnitTest name="DivideMSTestException" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="9c5f9358-13da-0cd4-5a88-9b54ca5de027">
+      <Execution id="1a0bc426-e22d-4665-9c15-53cea34b49a2" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Divide" name="DivideMSTestException" />
+    </UnitTest>
+    <UnitTest name="IsPositiveMSTestIntNegativeValue" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="44ec90ff-6fc3-96d6-1eb7-f01555bccf22">
+      <Execution id="f5cf2531-5633-4cec-bdfa-ea4272be4b7e" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isPositive" name="IsPositiveMSTestIntNegativeValue" />
+    </UnitTest>
+    <UnitTest name="CosMSTestZeroValue" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="27bf2efa-dd19-33aa-a3dd-8f357d90ec80">
+      <Execution id="5c3a39bd-a588-4488-8ebe-0ae4c9be005b" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Cos" name="CosMSTestZeroValue" />
+    </UnitTest>
+    <UnitTest name="CosMSTestString" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="e7156d21-491a-0165-45fd-1e216a685d9c">
+      <Execution id="8f4ff6c1-e550-4fbf-83ae-904c5c55af16" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Cos" name="CosMSTestString" />
+    </UnitTest>
+    <UnitTest name="AbsMethodException" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="f1fd2063-2548-4ab9-356b-6835659386b4">
+      <Execution id="b68dae9e-8cb4-492e-88b3-713ab5681a67" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Abs" name="AbsMethodException" />
+    </UnitTest>
+    <UnitTest name="AddMSTestString" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="0874398b-120c-e299-bc57-ca1ee573d82c">
+      <Execution id="c2155026-129d-4d48-8d75-f078b800f1fa" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Add" name="AddMSTestString" />
+    </UnitTest>
+    <UnitTest name="IsNegativeMSTestDouble" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="8ebd786e-55bf-331a-9432-9e33312adba7">
+      <Execution id="8d81e75c-de35-4441-962f-547fe0ac705e" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isNegative" name="IsNegativeMSTestDouble" />
+    </UnitTest>
+    <UnitTest name="AbsMSTestStringInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="4002b077-c11f-b093-da88-b58b69f0eeb7">
+      <Execution id="696fe7a9-5b9a-45fb-a443-6c018baba858" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Abs" name="AbsMSTestStringInt" />
+    </UnitTest>
+    <UnitTest name="AbsMSTestInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="a9276d6b-c88b-3f3f-74b6-c17fa9c43823">
+      <Execution id="5bf38bfe-55dc-44d2-acab-212fd7fe358c" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Abs" name="AbsMSTestInt" />
+    </UnitTest>
+    <UnitTest name="IsNegativeMSTestZero" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="2ebf40af-a7e8-3862-7b2d-3d4b39820c40">
+      <Execution id="45f80b8e-b621-485f-bc9d-77545b582144" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isNegative" name="IsNegativeMSTestZero" />
+    </UnitTest>
+    <UnitTest name="IsPositiveMSTestException" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="4a27a543-314a-4fc5-27f3-17eb0eda44ef">
+      <Execution id="9140717d-7749-490f-98e8-0ee8c0a3c196" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isPositive" name="IsPositiveMSTestException" />
+    </UnitTest>
+    <UnitTest name="IsPositiveMSTestInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="5ed440ec-084a-b001-9512-2c51f1960a8e">
+      <Execution id="953baac4-f0a7-4e0b-a6f6-09b9bcc9940b" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isPositive" name="IsPositiveMSTestInt" />
+    </UnitTest>
+    <UnitTest name="AddMSTestDouble" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="2b7487f1-2938-807a-e00c-61c620a53df1">
+      <Execution id="47cb5612-bb15-4a40-b99a-408850117064" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Add" name="AddMSTestDouble" />
+    </UnitTest>
+    <UnitTest name="IsNegativeMSTestString" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="f0214a0c-5953-c2f7-690b-e3e3896faada">
+      <Execution id="9d8d839a-e884-4517-9a9f-47b284a92e34" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isNegative" name="IsNegativeMSTestString" />
+    </UnitTest>
+    <UnitTest name="IsNegativeMSTestException" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="fdef3f41-155d-3c13-76f1-f973f4f96051">
+      <Execution id="a5decf3b-7e64-4b8a-a6f1-76d30a27557f" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isNegative" name="IsNegativeMSTestException" />
+    </UnitTest>
+    <UnitTest name="CosMSTestException" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="b32cb058-9706-9044-9da3-10c50f2d390d">
+      <Execution id="18d04ec2-0473-4b55-82b0-9fe81c805509" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Cos" name="CosMSTestException" />
+    </UnitTest>
+    <UnitTest name="AbsMSTestDouble" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="a41ec131-1cd9-d98c-ad30-d56b3d84e41a">
+      <Execution id="273768f3-88cb-42e8-ab43-402f7e5b40bb" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Abs" name="AbsMSTestDouble" />
+    </UnitTest>
+    <UnitTest name="AddMSTestInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="9fbb8e49-ff93-b94b-778a-ae38b8c7d8d9">
+      <Execution id="d6e3b7f6-8346-49c1-b7d7-fc0bc7a1afd6" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Add" name="AddMSTestInt" />
+    </UnitTest>
+    <UnitTest name="IsNegativeMSTestIntPositiveValue" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="d97379ba-922b-fd0a-73cd-3a2cea2e37de">
+      <Execution id="c7244dfa-2a2c-4653-b21f-028d56c20b7e" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isNegative" name="IsNegativeMSTestIntPositiveValue" />
+    </UnitTest>
+    <UnitTest name="DivideMSTestString" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="ffb93508-296f-dd2b-fbac-085ac0379350">
+      <Execution id="1e1c8c5c-4f6a-473c-bc95-34b403ff0940" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Divide" name="DivideMSTestString" />
+    </UnitTest>
+    <UnitTest name="IsPositiveMSTestDouble" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="5b352872-5d3e-e157-9d66-1e4cdbd23aa8">
+      <Execution id="0206d305-0782-4a9c-812d-7068a436725e" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isPositive" name="IsPositiveMSTestDouble" />
+    </UnitTest>
+    <UnitTest name="CosMSTestDouble" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="d24df5d1-e9c8-a61e-5c13-ef53db1687d9">
+      <Execution id="efeb92cb-2892-4f41-8202-dcd671aab3a4" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Cos" name="CosMSTestDouble" />
+    </UnitTest>
+    <UnitTest name="CosMSTestNegativeValue" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="ebcc6792-1179-20c5-83ca-fb372fb26a4e">
+      <Execution id="a175dd31-8385-4557-97bf-ddde160a14b0" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Cos" name="CosMSTestNegativeValue" />
+    </UnitTest>
+    <UnitTest name="IsPositiveMSTestZero" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="2c8d5602-9b96-58f3-987d-6b6fed8d46fa">
+      <Execution id="ce3c75de-abc8-4811-b0d4-47e6cb96e857" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isPositive" name="IsPositiveMSTestZero" />
+    </UnitTest>
+    <UnitTest name="DivideMSTestInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="18d86f2b-f679-9d0b-6a29-7eb6d926a7a1">
+      <Execution id="8d9159b9-c2a4-4e35-8696-3ad3f8c92f3e" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_Divide" name="DivideMSTestInt" />
+    </UnitTest>
+    <UnitTest name="IsNegativeMSTestInt" storage="c:\users\tatsiana_barabanava\source\repos\calculator(mstests)\bin\debug\calculator(mstests).dll" id="ef1354eb-b104-af9c-10bf-e70fbd0ced1c">
+      <Execution id="44f40a11-8d73-40da-8dab-cf767ef02f77" />
+      <TestMethod codeBase="C:\Users\Tatsiana_Barabanava\source\repos\Calculator(MSTests)\bin\Debug\Calculator(MSTests).dll" adapterTypeName="executor://mstestadapter/v2" className="Calculator_MSTests_.MSTest_isNegative" name="IsNegativeMSTestInt" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="0874398b-120c-e299-bc57-ca1ee573d82c" executionId="c2155026-129d-4d48-8d75-f078b800f1fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1fd2063-2548-4ab9-356b-6835659386b4" executionId="b68dae9e-8cb4-492e-88b3-713ab5681a67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c8b83fc-085f-40d6-bc85-186d1ef04350" executionId="b96cf4f0-cd26-45bc-9a09-44a8332e5d3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fbb8e49-ff93-b94b-778a-ae38b8c7d8d9" executionId="d6e3b7f6-8346-49c1-b7d7-fc0bc7a1afd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0214a0c-5953-c2f7-690b-e3e3896faada" executionId="9d8d839a-e884-4517-9a9f-47b284a92e34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ebd786e-55bf-331a-9432-9e33312adba7" executionId="8d81e75c-de35-4441-962f-547fe0ac705e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9276d6b-c88b-3f3f-74b6-c17fa9c43823" executionId="5bf38bfe-55dc-44d2-acab-212fd7fe358c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebcc6792-1179-20c5-83ca-fb372fb26a4e" executionId="a175dd31-8385-4557-97bf-ddde160a14b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4002b077-c11f-b093-da88-b58b69f0eeb7" executionId="696fe7a9-5b9a-45fb-a443-6c018baba858" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b32cb058-9706-9044-9da3-10c50f2d390d" executionId="18d04ec2-0473-4b55-82b0-9fe81c805509" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a27a543-314a-4fc5-27f3-17eb0eda44ef" executionId="9140717d-7749-490f-98e8-0ee8c0a3c196" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ebf40af-a7e8-3862-7b2d-3d4b39820c40" executionId="45f80b8e-b621-485f-bc9d-77545b582144" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2b7487f1-2938-807a-e00c-61c620a53df1" executionId="47cb5612-bb15-4a40-b99a-408850117064" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44ec90ff-6fc3-96d6-1eb7-f01555bccf22" executionId="f5cf2531-5633-4cec-bdfa-ea4272be4b7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c8ddd6b6-1195-886d-044d-7027d6307329" executionId="e3b17558-ea48-4787-a25b-56b79d532ebf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="197e995a-571b-124b-26d1-f7a5a08c072e" executionId="fab2c3fe-2875-4b8a-bdfe-277edf2e87c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e7156d21-491a-0165-45fd-1e216a685d9c" executionId="8f4ff6c1-e550-4fbf-83ae-904c5c55af16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdef3f41-155d-3c13-76f1-f973f4f96051" executionId="a5decf3b-7e64-4b8a-a6f1-76d30a27557f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d97379ba-922b-fd0a-73cd-3a2cea2e37de" executionId="c7244dfa-2a2c-4653-b21f-028d56c20b7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a41ec131-1cd9-d98c-ad30-d56b3d84e41a" executionId="273768f3-88cb-42e8-ab43-402f7e5b40bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b352872-5d3e-e157-9d66-1e4cdbd23aa8" executionId="0206d305-0782-4a9c-812d-7068a436725e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c5f9358-13da-0cd4-5a88-9b54ca5de027" executionId="1a0bc426-e22d-4665-9c15-53cea34b49a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d24df5d1-e9c8-a61e-5c13-ef53db1687d9" executionId="efeb92cb-2892-4f41-8202-dcd671aab3a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c368b503-30be-544c-9e14-354afd40bc7b" executionId="d21759b7-bac1-4403-9470-ff50c00d276f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ffb93508-296f-dd2b-fbac-085ac0379350" executionId="1e1c8c5c-4f6a-473c-bc95-34b403ff0940" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="27bf2efa-dd19-33aa-a3dd-8f357d90ec80" executionId="5c3a39bd-a588-4488-8ebe-0ae4c9be005b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c8d5602-9b96-58f3-987d-6b6fed8d46fa" executionId="ce3c75de-abc8-4811-b0d4-47e6cb96e857" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="18d86f2b-f679-9d0b-6a29-7eb6d926a7a1" executionId="8d9159b9-c2a4-4e35-8696-3ad3f8c92f3e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ed440ec-084a-b001-9512-2c51f1960a8e" executionId="953baac4-f0a7-4e0b-a6f6-09b9bcc9940b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef1354eb-b104-af9c-10bf-e70fbd0ced1c" executionId="44f40a11-8d73-40da-8dab-cf767ef02f77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a57f8c6-ba35-4bbc-d840-ed649f4c1ef1" executionId="f57e05e0-0f03-4c37-84dd-71224f904d07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="31" executed="31" passed="24" failed="7" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <!-- Configurations that affect the Test Framework -->
+  <RunConfiguration>
+    <MaxCpuCount>2</MaxCpuCount>
+    <!-- Path relative to directory that contains .runsettings file-->
+    <ResultsDirectory>.\ThisIsATestResultsDirectory</ResultsDirectory>
+
+    <!-- x86 or x64 -->
+    <!-- You can also change it from the Test menu; choose "Processor Architecture for AnyCPU Projects" -->
+    <TargetPlatform>x86</TargetPlatform>
+
+    <!-- Framework35 | [Framework40] | Framework45 -->
+    <TargetFrameworkVersion>.NETFramework, Version=v4.7.2</TargetFrameworkVersion>
+
+    <!-- Path to Test Adapters -->
+    <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
+
+    
+
+    <!-- true or false -->
+    <!-- Value that specifies the exit code when no tests are discovered -->
+    <TreatNoTestsAsError>true</TreatNoTestsAsError>
+  </RunConfiguration>
+
+  
+  <!-- Parameters used by tests at run time -->
+  <TestRunParameters>
+    <Parameter name="webAppUrl" value="http://localhost" />
+    <Parameter name="webAppUserName" value="Admin" />
+    <Parameter name="webAppPassword" value="Password" />
+  </TestRunParameters>
+
+  <!-- Configuration for loggers -->
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="console" enabled="True">
+        <Configuration>
+            <Verbosity>quiet</Verbosity>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="trx" enabled="True">
+        <Configuration>
+          <LogFileName>TestResults.trx</LogFileName>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="html" enabled="True">
+        <Configuration>
+          <LogFileName>TestResults.html</LogFileName>
+        </Configuration>
+      </Logger>
+      <Logger friendlyName="blame" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+
+  <!-- Adapter Specific sections -->
+
+  <!-- MSTest adapter -->
+  <MSTest>
+    <MapInconclusiveToFailed>True</MapInconclusiveToFailed>
+    <CaptureTraceOutput>false</CaptureTraceOutput>
+    <DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
+    <DeploymentEnabled>False</DeploymentEnabled>
+    <AssemblyResolution>
+      <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
+    </AssemblyResolution>
+  </MSTest>
+
+</RunSettings>
